@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9c544aa4c13f72192b8949dbef5c579b",
+    "content-hash": "024052a22fb3513fd84daf9f807cb62f",
     "packages": [
         {
             "name": "automattic/batcache",
@@ -1027,6 +1027,24 @@
             "time": "2019-11-12T15:26:05+00:00"
         },
         {
+            "name": "wpackagist-plugin/featured-image-from-url",
+            "version": "1.7.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/featured-image-from-url/",
+                "reference": "tags/1.7.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/featured-image-from-url.1.7.2.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/featured-image-from-url/"
+        },
+        {
             "name": "wpackagist-plugin/jetpack",
             "version": "8.0",
             "source": {
@@ -1043,6 +1061,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/jetpack/"
+        },
+        {
+            "name": "wpackagist-plugin/pastebin-embed",
+            "version": "1.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/pastebin-embed/",
+                "reference": "tags/1.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/pastebin-embed.1.5.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/pastebin-embed/"
         },
         {
             "name": "wpackagist-plugin/redis-cache",
@@ -1097,6 +1133,55 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/sendgrid-email-delivery-simplified/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-seo",
+            "version": "12.7.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
+                "reference": "tags/12.7.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.12.7.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-seo/"
+        },
+        {
+            "name": "wzul/wp-disable-upload",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wzul/WP-Disable-Media-Upload.git",
+                "reference": "1f45e178afabedd59a20d3c2bf62897923a6203f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wzul/WP-Disable-Media-Upload/zipball/1f45e178afabedd59a20d3c2bf62897923a6203f",
+                "reference": "1f45e178afabedd59a20d3c2bf62897923a6203f",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Wan Zulkarnain",
+                    "email": "wanzulkarnain69@gmail.com"
+                }
+            ],
+            "description": "WordPress Plugin to disable media uploads",
+            "support": {
+                "source": "https://github.com/wzul/WP-Disable-Media-Upload/tree/1.0",
+                "issues": "https://github.com/wzul/WP-Disable-Media-Upload/issues"
+            },
+            "time": "2018-01-29T01:12:35+00:00"
         }
     ],
     "packages-dev": [],

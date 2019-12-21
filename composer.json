@@ -26,7 +26,12 @@
         "wpackagist-plugin/sendgrid-email-delivery-simplified": "~1",
 
         "predis/predis": "~1",
-        "wp-cli/wp-cli": "^2"
+        "wp-cli/wp-cli": "^2",
+
+        "wzul/wp-disable-upload": "*",
+        "wpackagist-plugin/pastebin-embed": "1.5",
+        "wpackagist-plugin/featured-image-from-url": "1.7.2",
+        "wpackagist-plugin/wordpress-seo": "*"
     },
     "suggest": {
         "wpackagist-plugin/cloudflare-cache-purge": "Purges cached pages on CF.",
@@ -55,6 +60,10 @@
         {
             "type": "composer",
             "url": "https://wp-cli.org/package-index"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/wzul/WP-Disable-Media-Upload.git"
         }
     ],
     "extra": {
