@@ -19,7 +19,6 @@
 
         "automattic/batcache": "dev-master",
         "wpackagist-plugin/redis-cache": "~1",
-        "wpackagist-plugin/secure-db-connection": "~1",
 
         "humanmade/s3-uploads": "~2",
         "wpackagist-plugin/jetpack": "*",
@@ -30,8 +29,7 @@
 
         "wzul/wp-disable-upload": "*",
         "wpackagist-plugin/pastebin-embed": "1.5",
-        "wpackagist-plugin/featured-image-from-url": "1.7.2",
-        "wpackagist-plugin/wordpress-seo": "*"
+        "wpackagist-plugin/featured-image-from-url": "1.7.2"
     },
     "suggest": {
         "wpackagist-plugin/cloudflare-cache-purge": "Purges cached pages on CF.",
