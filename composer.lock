@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cff47ae10ea102cd40521e0cf7198f82",
+    "content-hash": "abae7a3df87de940c4145a111e0a4fc4",
     "packages": [
         {
             "name": "automattic/batcache",
@@ -119,6 +119,50 @@
                 "sdk"
             ],
             "time": "2019-12-20T19:17:37+00:00"
+        },
+        {
+            "name": "bradyvercher/gistpress",
+            "version": "v3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bradyvercher/gistpress.git",
+                "reference": "22b3df891913a9c7df3f9629a949ccd9b5646189"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bradyvercher/gistpress/zipball/22b3df891913a9c7df3f9629a949ccd9b5646189",
+                "reference": "22b3df891913a9c7df3f9629a949ccd9b5646189",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Brady Vercher",
+                    "email": "brady@blazersix.com",
+                    "homepage": "http://www.blazersix.com/"
+                },
+                {
+                    "name": "Gary Jones",
+                    "email": "gamajo@gamajo.com",
+                    "homepage": "http://gamajo.com"
+                }
+            ],
+            "description": "A WordPress plugin to easily embed Gists via oEmbed or shortcode.",
+            "homepage": "https://github.com/bradyvercher/gistpress",
+            "keywords": [
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/bradyvercher/gistpress/issues",
+                "source": "https://github.com/bradyvercher/gistpress"
+            },
+            "time": "2016-02-17T06:03:32+00:00"
         },
         {
             "name": "composer/installers",

@@ -29,7 +29,8 @@
 
         "wzul/wp-disable-upload": "*",
         "wpackagist-plugin/pastebin-embed": "1.5",
-        "wpackagist-plugin/featured-image-from-url": "1.7.2"
+        "wpackagist-plugin/featured-image-from-url": "1.7.2",
+        "bradyvercher/gistpress": "*"
     },
     "suggest": {
         "wpackagist-plugin/cloudflare-cache-purge": "Purges cached pages on CF.",
@@ -62,6 +63,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/wzul/WP-Disable-Media-Upload.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bradyvercher/gistpress"
         }
     ],
     "extra": {
