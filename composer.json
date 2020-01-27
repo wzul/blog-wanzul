@@ -18,13 +18,10 @@
         "wordpress/wordpress": "*",
 
         "automattic/batcache": "dev-master",
-        "wpackagist-plugin/redis-cache": "~1",
 
         "humanmade/s3-uploads": "~2",
         "wpackagist-plugin/jetpack": "*",
         "wpackagist-plugin/sendgrid-email-delivery-simplified": "~1",
-
-        "predis/predis": "~1",
         "wp-cli/wp-cli": "^2",
 
         "wzul/wp-disable-upload": "*",
