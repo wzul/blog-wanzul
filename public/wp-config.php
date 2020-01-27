@@ -28,6 +28,9 @@ define('FORCE_SSL_ADMIN', true);
 // HTTPS port is always 80 because SSL is terminated at Heroku router / CloudFlare
 define('JETPACK_SIGNATURE__HTTPS_PORT', 80);
 
+// WordPress Post Revision
+define('WP_POST_REVISIONS', 1);
+
 /**
  * Redis settings.
  */
