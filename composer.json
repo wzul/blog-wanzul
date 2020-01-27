@@ -30,7 +30,8 @@
         "wzul/wp-disable-upload": "*",
         "wpackagist-plugin/pastebin-embed": "1.5",
         "wpackagist-plugin/featured-image-from-url": "1.7.2",
-        "bradyvercher/gistpress": "*"
+        "bradyvercher/gistpress": "*",
+        "wpackagist-plugin/wordpress-seo": "*"
     },
     "suggest": {
         "wpackagist-plugin/cloudflare-cache-purge": "Purges cached pages on CF.",
